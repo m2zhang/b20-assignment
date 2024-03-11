@@ -1,0 +1,1 @@
+As a student user the students must be able to see .. when clicking on the __ button/link
