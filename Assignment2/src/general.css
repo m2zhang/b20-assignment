@@ -1,0 +1,12 @@
+.navbar{
+    background-color:black;
+}
+
+#nav{
+    color:white;
+    text-decoration: none;
+}
+
+#nav:hover{
+    color:red;
+}
