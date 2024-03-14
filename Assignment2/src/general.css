@@ -1,23 +1,16 @@
 body{
     background-color: rgb(36, 84, 243);
-}
-
-#page_head{
-    padding-top :10px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
+    overflow:visible;
 }
 
 .navbar{
     display: flex;
     list-style-type: none;
-    text-align: center;
-    position: fixed;
-    top: 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top:0px;
     width: 100%;
-    margin: 0%;
-    padding-top: 1%;
     background-color:rgb(36, 84, 243);
 }
 
@@ -39,37 +32,19 @@ footer{
     top: 80%;
 }
 
-
-body {
-font-family: Arial, sans-serif;
-}
-.navbar {
-display: flex;
-list-style-type: none;
-padding: 0;
-overflow: hidden;
-background-color: #333;
-}
-.navbar li {
-float: left;
-}
-.navbar li a {
-display: block;
-color: white;
-text-align: center;
-padding: 14px 16px;
-text-decoration: none;
-}
-.navbar li a:hover {
-background-color: #ddd;
-color: black;
-}
 .news-section {
-width: 80%;
-margin: 20px auto;
+    display: block;
+    position: relative;
+    width: 90%;
+    margin-left:5%
 }
 .news-item {
-background-color: #f2f2f2;
-padding: 20px;
-margin-bottom: 15px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.page_title{
+    color:white;
+    text-align: center;
 }
