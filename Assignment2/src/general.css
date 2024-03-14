@@ -1,6 +1,7 @@
 body{
-    background-color: rgb(36, 84, 243);
-    overflow:visible;
+    background-color: rgb(255, 255, 255);
+    overflow: visible;
+    margin: 0px;
 }
 
 .navbar{
@@ -11,7 +12,7 @@ body{
     position: sticky;
     top:0px;
     width: 100%;
-    background-color:rgb(36, 84, 243);
+    background-color:rgb(67, 67, 67);
 }
 
 #nav{
@@ -24,7 +25,8 @@ body{
 }
 
 #nav:hover{
-    color:red;
+    color:rgb(46, 160, 209);
+    text-decoration: underline;
 }
 
 footer{
@@ -38,6 +40,7 @@ footer{
     width: 90%;
     margin-left:5%
 }
+
 .news-item {
     background-color: #f2f2f2;
     padding: 20px;
@@ -45,6 +48,10 @@ footer{
 }
 
 .page_title{
-    color:white;
+    color:rgb(0, 0, 0);
     text-align: center;
+}
+
+h3{
+    margin: 15px;
 }
