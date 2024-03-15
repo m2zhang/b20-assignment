@@ -2,9 +2,10 @@
     color:pink;
 }
 
-.box {
-    width: 200px;
-    height: 100px;
+.container {
+    background-color: #CEDBEA;
+    width: 501px;
+    height: 808px;
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
