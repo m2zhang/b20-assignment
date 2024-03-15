@@ -7,7 +7,6 @@
 
 header {
     width: 100%;
-    background-color: #333;
     padding: 0px;  
 }
 
@@ -26,6 +25,12 @@ header {
       width: 100%;
     }
   }
+
+@media only screen and (max-width: 620px) {
+    header, footer {
+        text-align: center; 
+    }
+}
 
 body{
     font-family: sans-serif;
@@ -86,13 +91,12 @@ body{
     padding: 25px;
 }
 
-.container .number.active{
-    background: rgb(rgb(70, 67, 227), green, blue);
-    border: 2px solid rgba(rgb(79, 92, 102), green, blue, alpha);
-}
-
 .container .number:hover,
 .container .number-pre:hover {
+    background-color: rgba(174, 193, 100, 0.911);
+}
+
+.arrow:hover{
     background-color: rgba(174, 193, 100, 0.911);
 }
 
