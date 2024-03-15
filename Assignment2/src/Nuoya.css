@@ -3,13 +3,70 @@
 }
 
 .container {
-    background-color: #CEDBEA;
-    width: 501px;
-    height: 808px;
+    background-color: #grey;
+    width: 1250px;
+    height: 700px;
     border: 1px solid black;
     padding: 10px;
-    margin: 10px;
+    margin: 0 auto;
   }
+
+.firstDiv{
+    background-color: #CEDBEA;
+    padding: 5px;
+    height: 600px;
+    width: 400px;
+    border-radius: 30px;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+
+.firstDiv > h1 {
+    text-align: center;
+}
+
+.firstDiv > p {
+    text-align: center;
+}
+
+.secondDiv{
+    background-color: #CEDBEA;
+    padding: 5px;
+    height: 600px;
+    width: 400px;
+    border-radius: 30px;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+
+.secondDiv > h1 {
+    text-align: center;
+}
+
+.secondDiv > p {
+    text-align: center;
+}
+
+.thirdDiv{
+    background-color: #CEDBEA;
+    padding: 5px;
+    height: 600px;
+    width: 400px;
+    border-radius: 30px;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+
+.thirdDiv > h1 {
+    text-align: center;
+}
+
+.thirdDiv > p {
+    text-align: center;
+}
 
 .navbar{
     display: flex;
