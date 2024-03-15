@@ -10,3 +10,29 @@
     padding: 10px;
     margin: 10px;
   }
+
+.navbar{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    background-color:rgb(67, 67, 67);
+    z-index:100;
+}
+
+#nav{
+    list-style-type: none;
+    color:white;
+    padding:2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#nav:hover{
+    color:rgb(46, 160, 209);
+    text-decoration: underline;
+}
