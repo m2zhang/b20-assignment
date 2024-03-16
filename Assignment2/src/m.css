@@ -13,7 +13,7 @@ header {
 .header-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .course-info{
@@ -46,7 +46,6 @@ header {
 }
 
 body{
-    font-family: sans-serif;
     color: black;
     background: #fff;
     height: 100vh;
@@ -124,6 +123,11 @@ body{
 
 /* Start of CSS for team.html */
 
+.h1 {
+    padding: 20px;
+    color: rgb(248, 248, 248);
+}
+
 body {
 	background-color: #f8fafc;
 }
@@ -140,7 +144,7 @@ body {
 
 .slider {
 	display: flex;
-	aspect-ratio: 16 / 9;
+	aspect-ratio: 11 / 11;
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
 	scroll-behavior: smooth;
@@ -182,4 +186,43 @@ body {
 
 .slider-nav a:hover {
 	opacity: 1;
+}
+
+/* CSS for index/homepage - syllabus section */
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+/* so it loads on teams..*/
+footer{
+    display:flex;
+    position: sticky;
+    list-style-type: none;
+    background-color: rgb(67, 67, 67);
+    width: 100%;
+    margin:0;
+    float:left;
+    justify-content: center;
+    bottom: 0;
 }

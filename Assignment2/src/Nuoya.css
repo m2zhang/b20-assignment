@@ -39,9 +39,17 @@
 
 .firstDiv > p {
     text-align: center;
-
 }
 
+#lecslide:hover{
+    color:rgb(46, 160, 209);
+    text-decoration: underline;
+}
+
+#tutworksheet:hover{
+    color:rgb(46, 160, 209);
+    text-decoration: underline;
+}
 .secondDiv{
     background-color: #CEDBEA;
     padding: 5px;
@@ -61,6 +69,16 @@
     text-align: center;
 }
 
+#worksheet:hover{
+    color:rgb(46, 160, 209);
+    text-decoration: underline;
+}
+
+#tutworksheetsol:hover{
+    color:rgb(46, 160, 209);
+    text-decoration: underline;
+}
+
 .thirdDiv{
     background-color: #CEDBEA;
     padding: 5px;
@@ -78,6 +96,11 @@
 
 .thirdDiv > p {
     text-align: center;
+}
+
+#worksheetsol:hover{
+    color:rgb(46, 160, 209);
+    text-decoration: underline;
 }
 
 .AfirstDiv{
@@ -149,6 +172,7 @@
     width: 100%;
     background-color:rgb(67, 67, 67);
     z-index:100;
+
 }
 
 #nav{
@@ -162,5 +186,36 @@
 
 #nav:hover{
     color:rgb(46, 160, 209);
+    text-decoration: underline;
+}
+
+footer{
+    display:flex;
+    position: sticky;
+    list-style-type: none;
+    background-color: rgb(67, 67, 67);
+    width: 100%;
+    margin:0;
+    float:left;
+    justify-content: center;
+}
+
+#foot-title{
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    margin:15px;
+}
+
+
+#foot-cont{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding:0%;
+}
+
+#foot-cont-a{
+    color: rgb(146, 208, 252);
     text-decoration: underline;
 }
