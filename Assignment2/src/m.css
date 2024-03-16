@@ -144,7 +144,7 @@ body {
 
 .slider {
 	display: flex;
-	aspect-ratio: 11 / 11;
+	aspect-ratio: 9 / 9;
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
 	scroll-behavior: smooth;
