@@ -144,7 +144,7 @@ body {
 
 .slider {
 	display: flex;
-	aspect-ratio: 9 / 9;
+	aspect-ratio: 9 / 10;
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
 	scroll-behavior: smooth;
@@ -162,7 +162,7 @@ body {
 .slider img {
 	flex: 1 0 100%;
 	scroll-snap-align: start;
-	object-fit: cover;
+	object-fit:contain;
 }
 
 .slider-nav {
