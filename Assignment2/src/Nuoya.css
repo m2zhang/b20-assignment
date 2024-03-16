@@ -3,22 +3,29 @@
 }
 
 .container {
+    display:block;
+    position: relative;
+    justify-content: center;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    padding:4%;
+    width:100%;
     background-color: hsl(0, 0%, 100%);
-    width: 1242px;
     height: 750px;
-    border: 1px solid black;
     padding: 10px;
     margin: 0 auto;
     margin-top: 5%;
+    justify-content: space-evenly;
   }
 
   #Lectures_title {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
   }
 
 .firstDiv{
-    background-color: #CEDBEA;
+    background-color: #e3effa;
     padding: 5px;
     height: 600px;
     width: 400px;
@@ -34,6 +41,7 @@
 
 .firstDiv > p {
     text-align: center;
+
 }
 
 .secondDiv{
@@ -73,6 +81,65 @@
 .thirdDiv > p {
     text-align: center;
 }
+
+.AfirstDiv{
+    background-color: #e3effa;
+    padding: 5px;
+    height: 450px;
+    width: 400px;
+    border-radius: 30px;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+
+.AfirstDiv > h1 {
+    text-align: center;
+}
+
+.AfirstDiv > p {
+    text-align: center;
+
+}
+
+.AsecondDiv{
+    background-color: #CEDBEA;
+    padding: 5px;
+    height: 450px;
+    width: 400px;
+    border-radius: 30px;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+
+.AsecondDiv > h1 {
+    text-align: center;
+}
+
+.AsecondDiv > p {
+    text-align: center;
+}
+
+.AthirdDiv{
+    background-color: #a5bedb;
+    padding: 5px;
+    height: 450px;
+    width: 400px;
+    border-radius: 30px;
+    border: 1px solid black;
+    display: inline-block;
+
+}
+
+.AthirdDiv > h1 {
+    text-align: center;
+}
+
+.AthirdDiv > p {
+    text-align: center;
+}
+
 
 .navbar{
     display: flex;
