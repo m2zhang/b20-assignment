@@ -13,7 +13,7 @@ header {
 .header-container {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 .course-info{
@@ -212,4 +212,17 @@ body {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+}
+
+/* so it loads on teams..*/
+footer{
+    display:flex;
+    position: sticky;
+    list-style-type: none;
+    background-color: rgb(67, 67, 67);
+    width: 100%;
+    margin:0;
+    float:left;
+    justify-content: center;
+    bottom: 0;
 }
