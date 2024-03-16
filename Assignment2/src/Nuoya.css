@@ -1,6 +1,4 @@
-#Calendar_title{
-    color:pink;
-}
+
 
 .container {
     display:block;
@@ -12,7 +10,7 @@
     padding:4%;
     width:100%;
     background-color: hsl(0, 0%, 100%);
-    height: 750px;
+    height: 700px;
     padding: 10px;
     margin: 0 auto;
     margin-top: 5%;
