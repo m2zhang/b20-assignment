@@ -3,6 +3,7 @@ body{
     position: relative;
     margin: 0px;
     margin-top: 110px;
+    margin-bottom: ;
 }
 
 .navbar{
@@ -33,11 +34,11 @@ body{
 
 footer{
     display:flex;
-    overflow:auto;
-    position: fixed;
-    top: 80%;
+    position: sticky;
     background-color: blanchedalmond;
     width: 100%;
+    margin:0px;
+    float:left;
 }
 
 .news-section {
