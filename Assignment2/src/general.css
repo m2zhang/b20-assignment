@@ -118,10 +118,57 @@ h3{
 }
 
 .course-info{
-    text-align:left;
+    text-align:center;
     margin-top: 10px;
     margin-left:auto;
     margin-right:auto;
     padding:2%;
-    width: 80%
+    width: 80%;
+}
+
+#long-syl{
+    margin-top:10px;
+    width: 60%;
+    min-height: 200px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#short-syl-left{
+    display:inline-block;
+    word-break: break-all;
+    margin:0;
+    width: 50%;
+    min-height: 200px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding:20px;
+}
+
+#short-syl-right{
+    display:inline-block;
+    margin:0;
+    width: 50%;
+    min-height: 200px;
+    margin-left:10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding:20px;
+}
+
+#long-short{
+    display:flex;
+    position:relative;
+    width: calc(60% + 40px);
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 0;
 }
