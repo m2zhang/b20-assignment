@@ -45,10 +45,11 @@ body{
 
 
 .container1 {
-    width: 90%;  
+    width: 100%;  
     max-width: 600px;  
-    margin: 0 auto;  
+    margin: 20px auto 0;  
     background-color: #CEDBEA;
+    justify-content: center;
     padding: 25px;
     text-align: center;  
     box-sizing: 0 20px 25px 25px #CEDBEA;
@@ -127,25 +128,13 @@ body {
 	opacity: 1;
 }
 
-
-.div2{
-    background-color: #e3effa;
-    padding: 5px;
-    height: 600px;
-    width: 400px;
-    border-radius: 30px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-
+footer{
+    display:flex;
+    position: sticky;
+    list-style-type: none;
+    background-color: rgb(67, 67, 67);
+    width: 100%;
+    margin:0;
+    float:left;
+    justify-content: center;
 }
-
-.div2 > h1 {
-    text-align: center;
-}
-
-.div2 > p {
-    text-align: center;
-}
-
-
-
