@@ -1,1 +1,1 @@
-As a student user, the student must be able to see all the home page with the syllabus when clicking on the ‘home’ button/link.
+As a student user, after clicking on the ‘home’ button/link, the student must be able to see the home page where the user can see the course syllabus.

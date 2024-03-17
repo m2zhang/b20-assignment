@@ -1,0 +1,1 @@
+As a student user, after clicking on the ‘assignments’ button/link, the student must be able to see the assignments page which will have information of the assignments such as due dates, weightage, and tasks.

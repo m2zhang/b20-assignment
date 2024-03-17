@@ -1,0 +1,1 @@
+As a student user, after clicking on the ‘team’ button/link, the student must be able to see the team page where they can see who the profs and TAs are get some basic information about them.

@@ -1,0 +1,1 @@
+As a student user, after clicking on the ‘tests’ button/link, the student must be able to see the tests page which will contain information about the midterms and exam such as dates, times, locations, weightage etc.

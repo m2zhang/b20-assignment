@@ -1,0 +1,1 @@
+As a student user, after clicking on the ‘feedback’ button/link, the student must be able to see the anonymous feedback page where the user can type and submit any feedback.

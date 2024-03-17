@@ -1,0 +1,1 @@
+As a student user, after clicking on the ‘resources’ button/link, the student must be able to see the resources page where the user can access important resources such as the textbook, piazza, markus, and possibly past notes.
