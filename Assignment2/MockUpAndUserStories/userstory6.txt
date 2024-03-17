@@ -1,0 +1,1 @@
+As a student user, after clicking on the ‘tutorials’ button/link, the student must be able to see the tutorials page containing weekly tutorial worksheets and solutions.
