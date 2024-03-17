@@ -1,11 +1,17 @@
+body {
+    padding:10px;
+    padding-bottom:60px;
+}
+
 footer{
     display:flex;
-    position: fixed;
+    position: sticky;
     list-style-type: none;
     background-color: rgb(67, 67, 67);
     width: 100%;
     margin:0;
     float:left;
+    height: 60px;
     justify-content: center;
 }
 
@@ -27,8 +33,4 @@ footer{
 #foot-cont-a{
     color: rgb(146, 208, 252);
     text-decoration: underline;
-}
-
-#foor-cont-a:hover{
-    color:rgb(167, 0, 136)
 }
