@@ -128,7 +128,24 @@ body {
 }
 
 
+.div2{
+    background-color: #e3effa;
+    padding: 5px;
+    height: 600px;
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
 
+}
+
+.div2 > h1 {
+    text-align: center;
+}
+
+.div2 > p {
+    text-align: center;
+}
 
 
 
