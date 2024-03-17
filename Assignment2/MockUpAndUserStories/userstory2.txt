@@ -1,1 +1,1 @@
-As a student user, the student must be able to see all the calanda page with the interactive calandar when clicking on the ‘Calandar’ button/link.
+As a student user, the student must be able to see all the calandar page with the interactive calandar when clicking on the ‘Calandar’ button/link.
