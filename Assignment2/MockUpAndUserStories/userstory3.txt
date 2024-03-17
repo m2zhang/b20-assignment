@@ -1,0 +1,1 @@
+As a student user, the student must be able to see all the news page with all posted news when clicking on the ‘news’ button/link.
